@@ -5,16 +5,16 @@ name := "salad-metrics-core"
 
 organization := "com.netaporter.salad"
 
-version := "0.2.6"
+version := "0.2.6-akka-2.3.0-spray-1.3.1"
 
 scalaVersion := "2.10.3"
 
 scalacOptions ++= Seq("-feature")
 
-val akka = "2.2.3"
-val spray = "1.2.0"
+val akka = "2.3.0"
+val spray = "1.3.1"
 val jackson = "2.2.2"
-val metrics = "3.0.1"
+val metrics = "3.0.2"
 
 libraryDependencies ++= Seq(
     "com.typesafe.akka" %% "akka-actor" % akka,
