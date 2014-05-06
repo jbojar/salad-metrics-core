@@ -5,7 +5,7 @@ name := "salad-metrics-core"
 
 organization := "com.netaporter.salad"
 
-version := "0.2.6-akka-2.3.0-spray-1.3.1"
+version := "0.2.6.1-akka-2.3.0-spray-1.3.1"
 
 scalaVersion := "2.10.3"
 
